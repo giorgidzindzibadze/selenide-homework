@@ -20,16 +20,16 @@ public class SelenideTests {
         options.addArguments("start-maximized");
         Configuration.browserCapabilities = options;
         Configuration.browserSize = null;
-            timeout=20000;
-            holdBrowserOpen=false;
-            screenshots=false;
-            baseUrl = "http://the-internet.herokuapp.com";
-            reopenBrowserOnFail = true;
-            downloadsFolder="src/main/resources/Pictures";
-            fastSetValue=true;
-            assertionMode=AssertionMode.SOFT;
-            fileDownload= FileDownloadMode.HTTPGET;
-            reportsFolder="src/main/resources/failedScreens";
+        timeout=20000;
+        holdBrowserOpen=false;
+        screenshots=false;
+        baseUrl = "http://the-internet.herokuapp.com";
+        reopenBrowserOnFail = true;
+        downloadsFolder="src/main/resources/Pictures";
+        fastSetValue=true;
+        assertionMode=AssertionMode.SOFT;
+        fileDownload= FileDownloadMode.HTTPGET;
+        reportsFolder="src/main/resources/failedScreens";
         downloadsFolder="src/main/resources/images";
 
     }
